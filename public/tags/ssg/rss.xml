@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://zhouyuxiang0.github.io/</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://zhouyuxiang0.github.io/tags/ssg/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>测试</title>
+                <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+                <link>https://zhouyuxiang0.github.io/ce-shi/</link>
+                <guid>https://zhouyuxiang0.github.io/ce-shi/</guid>
+                <description>&lt;p&gt;测试&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
