@@ -4,7 +4,7 @@ before_script:
 script:
   - ls
   - ls themes
-  - cat ./themes/theme.toml
+  - cat ./themes/Zulma/theme.toml
   # - cd themes && git clone https://github.com/Worble/Zulma && cd ..
   - zola build
 after_success: |
