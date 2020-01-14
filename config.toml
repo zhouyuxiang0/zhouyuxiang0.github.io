@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://example.com"
+theme = "Zulma"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -13,3 +14,14 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
+zulma_themes = ["default", "darkly", "flatly", "pulse", "simplex", "lux", "slate", "solar", "superhero"]
+
+zulma_menu = [
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/authors", name = "Authors"}
+]
+zulma_brand = {text = "Home"}
+zulma_title = "zyx的博客"
+zulma_theme = "darkly"
+zulma_allow_theme_selection = true
