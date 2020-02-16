@@ -1,8 +1,11 @@
 dist: bionic
+language: rust
 before_script:
   - cargo install cargo-web
+  - rustup component add rustfmt
 script:
   - make build
+  - cargo fmt -- --check
 after_success: |
   [ $TRAVIS_BRANCH = code ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
