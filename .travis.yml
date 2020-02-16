@@ -1,12 +1,12 @@
 dist: bionic
 before_script:
-  - curl -s -L https://github.com/getzola/zola/releases/download/v0.8.0/zola-v0.8.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+  - cargo install cargo-web
 script:
-  - pwd && ls && zola build
+  - make build
 after_success: |
   [ $TRAVIS_BRANCH = code ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
-  zola build &&
-  sudo pip install ghp-import &&
-  ghp-import -c https://zhouyuxiang0.github.io -n public -b master &&
+  make build &&
+  sudo pipe install ghp-import &&
+  ghp-import -c https://zhouyuxiang0.github.io -n docs -b master &&
   git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
