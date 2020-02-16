@@ -8,7 +8,6 @@ script:
 after_success: |
   [ $TRAVIS_BRANCH = code ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
-  make build &&
   sudo pipe install ghp-import &&
   ghp-import -c https://zhouyuxiang0.github.io -n docs -b master &&
   git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
