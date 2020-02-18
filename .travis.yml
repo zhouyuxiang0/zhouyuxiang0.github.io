@@ -1,13 +1,18 @@
 language: rust
 before_script:
-  - sudo pip install --upgrade pip
-  - sudo pip install pipe
-  - whereis pipe-1.6.0
-#  - cargo install cargo-web
-#  - rustup component add rustfmt
-# script:
-#   - make build
-#   - cargo fmt -- --check
+ - cargo install cargo-web
+ - rustup component add rustfmt
+script:
+  - make build
+  - cargo fmt -- --check
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: docs
+  fqdn: zhouyuxiang.com
+  on:
+    branch: master
 # after_success: |
 #   [ $TRAVIS_BRANCH = code ] &&
 #   [ $TRAVIS_PULL_REQUEST = false ] &&
