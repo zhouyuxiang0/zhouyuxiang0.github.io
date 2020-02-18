@@ -2,7 +2,7 @@ language: rust
 before_script:
   - sudo pip install --upgrade pip
   - sudo pip install pipe
-  - whereis pipe
+  - whereis pipe-1.6.0
 #  - cargo install cargo-web
 #  - rustup component add rustfmt
 # script:
