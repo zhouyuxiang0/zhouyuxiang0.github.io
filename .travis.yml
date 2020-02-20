@@ -13,7 +13,7 @@ deploy:
   local_dir: docs
   fqdn: zhouyuxiang.com
   on:
-    branch: master
+    branch: code
 # after_success: |
 #   [ $TRAVIS_BRANCH = code ] &&
 #   [ $TRAVIS_PULL_REQUEST = false ] &&
