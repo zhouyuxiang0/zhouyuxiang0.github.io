@@ -14,6 +14,7 @@ deploy:
   fqdn: zhouyuxiang.com
   on:
     branch: code
+    
 # after_success: |
 #   [ $TRAVIS_BRANCH = code ] &&
 #   [ $TRAVIS_PULL_REQUEST = false ] &&
