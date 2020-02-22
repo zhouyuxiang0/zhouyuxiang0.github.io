@@ -47,11 +47,9 @@ pub fn wapper() -> VNode {
                 </a>
                 <div class="tags has-addons level-item">
                   <span class="tag is-rounded">{"2020-02-16"}</span>
-
                   <span class="tag is-rounded is-primary">
                     {"zyx"}
                   </span>
-
                   <span class="tag is-rounded">
                     <svg class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none"
                       stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
@@ -63,7 +61,6 @@ pub fn wapper() -> VNode {
                 </div>
               </div>
             </header>
-
             <div itemprop="summary" class="content article-body">
               <p>
                 {"测试测试测试测试测试测试测试测试测试测试测试测试测试测试.
@@ -78,7 +75,6 @@ pub fn wapper() -> VNode {
           测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
           测试测试测试测试测试测试测试测试测试测试."}
               </p>
-
               <nav class="readmore">
                 <a itemprop="url" href="">{"Read
                   More  »"}
