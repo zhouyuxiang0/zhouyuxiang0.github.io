@@ -1,9 +1,9 @@
 #![recursion_limit = "1024"]
 use yew::{html, Component, ComponentLink, Html, ShouldRender};
 
+mod blog;
 mod header;
 mod main_component;
-mod blog;
 use header::Header;
 use main_component::MainComponent;
 
