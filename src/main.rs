@@ -3,6 +3,7 @@ use yew::{html, Component, ComponentLink, Html, ShouldRender};
 
 mod header;
 mod main_component;
+mod blog;
 use header::Header;
 use main_component::MainComponent;
 

@@ -121,7 +121,7 @@ impl Component for MainComponent {
                             </p>
 
                             <nav class="readmore">
-                              <a itemprop="url" href="https://festive-morse-47d46c.netlify.com/some-other-article/">{"Read
+                              <a itemprop="url" href="">{"Read
                                 More  »"}
                               </a>
                             </nav>

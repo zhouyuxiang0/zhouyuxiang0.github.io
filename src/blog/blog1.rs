@@ -1,0 +1,2 @@
+pub struct Blog1 {}
+
